@@ -1,13 +1,17 @@
 class Pokemon
 
+<<<<<<< HEAD
 
 attr_accessor :id, :name, :type, :db
 @@all = []
 
+=======
+>>>>>>> aef94a1bb6f4d58bc90e99de003c69d72a62b6e4
   def initialize(id:, name:, type:, db:)
     @id = id
     @name = name
     @db = db
+<<<<<<< HEAD
     @type = type
     @@all << self
   end
@@ -29,5 +33,17 @@ attr_accessor :id, :name, :type, :db
       new_pokemon
     end
 
+=======
+
+  end
+
+  def self.save
+
+  end
+
+  def self.find
+
+  end
+>>>>>>> aef94a1bb6f4d58bc90e99de003c69d72a62b6e4
 
 end
